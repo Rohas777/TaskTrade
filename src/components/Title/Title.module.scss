@@ -1,0 +1,11 @@
+@import './../../assets/scss/index';
+
+.title{
+    font-family: $fontTitle;
+    font-size: 96px;
+    line-height: normal;
+    background: var(--Gradient, linear-gradient(267deg, #07AC9C -44.39%, #42AF52 114.08%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

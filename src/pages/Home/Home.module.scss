@@ -1,0 +1,85 @@
+@import './../../assets/scss/index';
+
+.home{
+    height: 100%;
+
+    .container{
+        width: $container;
+        margin: 0px auto;
+    }
+
+    .hero{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: $headerHeight;
+
+        h1{
+            font-family: $fontTitle;
+            font-size: 156px;
+            line-height: normal;
+            background: linear-gradient(267deg, #07AC9C -44.39%, #42AF52 114.08%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+    
+    h1{
+        margin: 100px 60px 120px;
+    }
+
+    .about{
+        min-height: 100vh;
+        
+        .text{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            margin-bottom: 100px;
+
+            p{
+                font-family: $fontText;
+                font-size: 24px;
+                font-weight: 400;
+                line-height: 130%;
+            }
+        }
+    }
+
+    .articles{
+        min-height: 100vh;
+        
+        .cards{
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+
+    .faq{
+        min-height: 100vh;
+
+        ul{
+            width: 100%;
+            border-radius: 10px;
+            border: 2px solid $SECONDARY;
+
+            li{
+                font-family: $fontTitle;
+                font-size: 36px;
+                line-height: normal;
+                border-bottom: 1px solid $SECONDARY;
+                height: 100px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 10px 40px;
+
+                &:last-of-type{
+                    border-bottom: none;
+                }
+            }
+        }
+    }
+}
