@@ -1,10 +1,10 @@
 import React from 'react'
 
 import styles from './Home.module.scss'
-import {ReactComponent as Arrow} from './../../assets/image/arrow.svg'
 
 import Title from '../../components/Title'
 import ArticleCard from '../../components/ArticleCard'
+import FaQ from '../../components/FaQ'
 
 const Home: React.FC = () => {
     return (
@@ -31,13 +31,7 @@ const Home: React.FC = () => {
                 </div>
                 <div className={styles.faq}>
                     <Title>FaQ</Title>
-                    <ul>
-                        <li><span>Question 1</span><Arrow></Arrow></li>
-                        <li><span>Question 1</span><Arrow></Arrow></li>
-                        <li><span>Question 1</span><Arrow></Arrow></li>
-                        <li><span>Question 1</span><Arrow></Arrow></li>
-                        <li><span>Question 1</span><Arrow></Arrow></li>
-                    </ul>
+                    <FaQ />
                 </div>
             </div>
         </div>

@@ -1,0 +1,16 @@
+@import './../../assets/scss/index';
+
+.faq{
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid $SECONDARY;
+
+    li{
+        border-bottom: 1px solid $SECONDARY;
+
+        &:last-of-type{
+            border-bottom: none;
+        }
+
+    }
+}

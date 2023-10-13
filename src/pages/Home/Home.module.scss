@@ -59,27 +59,6 @@
 
     .faq{
         min-height: 100vh;
-
-        ul{
-            width: 100%;
-            border-radius: 10px;
-            border: 2px solid $SECONDARY;
-
-            li{
-                font-family: $fontTitle;
-                font-size: 36px;
-                line-height: normal;
-                border-bottom: 1px solid $SECONDARY;
-                height: 100px;
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                padding: 10px 40px;
-
-                &:last-of-type{
-                    border-bottom: none;
-                }
-            }
-        }
+        margin-bottom: 100px;
     }
 }
