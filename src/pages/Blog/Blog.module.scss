@@ -1,0 +1,24 @@
+@import './../../assets/scss/index';
+
+.blog{
+    height: 100%;
+    padding-top: $headerHeight;
+
+    .container{
+        width: $container;
+        margin: 0px auto;
+    }
+
+    h1{
+        margin: 70px 60px 80px;
+    }
+
+    .posts{
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+        margin-bottom: 120px;
+    }
+
+}
