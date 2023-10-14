@@ -1,9 +1,14 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 import {ReactComponent as Eye} from './../../assets/image/eye.svg'
 import styles from './FullPost.module.scss'
 
 const FullPost: React.FC = () => {
+
+    useEffect(() => {
+        window.scroll(0, 0)
+    }, [])
+
     return (
         <div className={styles.fullpost}>
         <div className={styles.hero}>
